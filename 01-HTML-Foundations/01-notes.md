@@ -1,4 +1,4 @@
-*** HTML Foundations
+### HTML Foundations
 
 - Opening Links in a new tab: [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](https://www.theodinproject.com/lessons/foundations-links-and-images#target-security) - Importance of `noopener` and `noreferrer` values in the `rel` attribute in an `<a>` tag. Prevents phishing attacks and tabnabbing.
 
