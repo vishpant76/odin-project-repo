@@ -36,4 +36,12 @@
 
 - The [06-cascade-fix](https://github.com/vishpant76/css-exercises/tree/main/foundations/06-cascade-fix) exercise is a good one to understand the quirks of specificity.
 
+- [Box Model](https://www.theodinproject.com/lessons/foundations-the-box-model): Padding, Margin, and Border. Also cheeck out [MDN Docs article](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#margins_padding_and_borders) on box model.
+
+![image](https://github.com/vishpant76/odin-project-repo/assets/18080911/a0184861-5d47-4714-9605-a55fae265086)
+
+- [CSS Box Model - Short Video](https://www.youtube.com/watch?v=rIO5326FgPE) - Some important points covered in second half.. Why we need box-sizing:border-box, the collapsing margin phenomenon when the elements are next to each other (the largest margin is considered), etc. Refer the [style.css]() file for the demo. Added one useful comment from a user for reference.
+
+- [box-sizing: border-box (EASY!)](https://www.youtube.com/watch?v=HdZHcFWcAd8) - This is probably the best explanation on border-box. Marking it for reference.
+
 - 
