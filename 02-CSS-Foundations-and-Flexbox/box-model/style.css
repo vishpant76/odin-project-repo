@@ -1,0 +1,29 @@
+* {
+  /* outline: 2px solid red; */
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+}
+
+.box-one {
+  background-color: red;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 30px solid purple;
+  margin: 60px;
+  box-sizing: border-box;
+}
+
+.box-two {
+  background-color: red;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 30px solid purple;
+  margin: 50px;
+}
+
+/*
+The part at 6:29 might be confusing for some people, so I explained it here: User here tells you that the total size of the element is 180x180, despite him specifying the height and width properties with value of 100px. So, user here wants the total size of the element to be 100x100, not 180x180. He tells you that there is a property called "box-sizing" with value "border-box". "border-box" takes into account the height and width values you mentioned, which are 100px for height and 100px for width. What "border-box" will do is make the total size of the element 100x100. To do this, it will first look at the current border and padding numbers (margin is out of the question because we said margin is not taken into account in the total element size), and it will work out the total element size using these numbers. User changes the border size to 20px, and padding still remains as 10px. Let's work this out. Assume the initial total element size is 0px. 20px border up and 20px border down means that the total element size is now 40px. Padding. 10px padding up and 10px padding down means that the total element size is now 40px + 10px + 10px = 60px. FInally, "border-box" subtracts this 60px from the desired total element size, which is 100px. So 100px - 60px is 40px. This 40px number we just calculated will be given to the element content size. So now, the total element size is 40px (the element content size) + 60px (the element padding and border sizes) which gives us a total element size of 100px. This entire process repeats for left and right (the width), causing the total element area to be 100x100. Pretty cool, right? Rewatch this part if you're still confused while reading, and focus, and tell me if you got it! 
+ */
