@@ -57,3 +57,16 @@
     + Failed to understand the margin-top:0 in the title element. This was done to counter the browser's default margin. Note that this is not the case of collapsing margin in this instance as there is no sibling of .title just above it, and we are talking about margin-top here. Refer [this chat](https://g.co/gemini/share/da0daf393c23) for more details on this. Useful info. Or the [Google docs link](https://docs.google.com/document/d/1swowHTsOS4zwEEkELLOyPmAUuY0l-2HD4kPMckgoq9s/edit?usp=drive_link).
     + Failed to understand how to center the big button in the middle. They key here is this: `margin: 0 auto;`. For full details on why/how this works, refer [this explanation here](https://docs.google.com/document/d/1oOiL6AFunfVLBfFRIHd58fRsnAEn4uc7dGjRisYEFQY/edit).
     + In short, need to redo this challenge again before moving further.
+
+- Leaving the 5th assignment for now in the recipe projects - styling, etc. Come back later.
+
+- [Inline vs Inline-block](https://chat.openai.com/share/200401c8-0a72-4466-ab95-696795a05c5a) in terms of the width, height, and padding.
+
+- [Another good explanation on margin: 0 auto](https://learnlayout.com/margin-auto) - to horizontally center an element within its container.
+
+
+### Introduction to Flexbox
+
+- [The intro article](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox#introduction) on TOP provides a good overview of flexbox. Key takeaway: any element can be both a flex container and a flex item. Said another way, you can also put display: flex on a flex item and then use flexbox to arrange [its children](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png).
+
+- 
