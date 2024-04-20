@@ -69,4 +69,31 @@
 
 - [The intro article](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox#introduction) on TOP provides a good overview of flexbox. Key takeaway: any element can be both a flex container and a flex item. Said another way, you can also put display: flex on a flex item and then use flexbox to arrange [its children](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png).
 
+- [Another article on Flexbox](https://internetingishard.netlify.app/html-and-css/flexbox/index.html).
+
+- Flex shorthand: `flex: 1` means flex-grow: 1, flex-shrink: 1, flex-basis: 0.
+
+- flex-shrink is similar to flex-grow, but sets the “shrink factor” of a flex item. flex-shrink only ends up being applied if the size of all flex items is larger than their parent container. For example, if our 3 divs in the first flex demo had a width declaration like: width: 100px, and .flex-container was smaller than 300px, our divs would have to shrink to fit.
+
+- The default shrink factor is flex-shrink: 1, which means all items will shrink evenly. If you do not want an item to shrink then you can specify flex-shrink: 0;. You can also specify higher numbers to make certain items shrink at a higher rate than normal.
+
+- Check out the [Flexbox-2]() css file for some additional important takeaways.
+
+- `flex-basis` sets the initial size of a flex item, so any sort of flex-growing or flex-shrinking starts from that baseline size. The shorthand value defaults to flex-basis: 0%.
+
+- This point is not very clear:
+> flex-basis sets the initial size of a flex item, so any sort of flex-growing or flex-shrinking starts from that baseline size. The shorthand value defaults to flex-basis: 0%. The reason we had to change it to auto in the flex-shrink example is that with the basis set to 0, those items would ignore the item’s width, and everything would shrink evenly. Using auto as a flex-basis tells the item to check for a width declaration (width: 250px)
+
+- Note about flex-basis:
+> There is a difference between the default value of flex-basis and the way the flex shorthand defines it if no flex-basis is given. The actual default value for flex-basis is auto, but when you specify flex: 1 on an element, it interprets that as flex: 1 1 0. If you want to only adjust an item’s flex-grow you can do so directly, without the shorthand. Or you can be more verbose and use the full 3 value shorthand flex: 1 1 auto, which is also equivalent to using flex: auto.
+
+- What is `flex: auto`?
+> flex: auto is one of the shorthands of flex. When auto is defined as a flex keyword it is equivalent to the values of flex-grow: 1, flex-shrink: 1 and flex-basis: auto or to flex: 1 1 auto using the flex shorthand. Note that flex: auto is not the default value when using the flex shorthand despite the name being “auto” which may be slightly confusing at first.
+
+- In practice you will likely not be using complex values for flex-grow, flex-shrink or flex-basis. Generally, you’re most likely to use declarations like flex: 1; to make divs grow evenly and flex-shrink: 0 to keep certain divs from shrinking.
+
+- [Flexbox made Easy](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s) - A rather detailed video that explains many Flexbox concepts through a demo.
+
+- [Flexbox Growing & Shrinking](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking#introduction) - Adding link to the Odin page where the above flex concepts were covered.
+
 - 
