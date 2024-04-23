@@ -100,4 +100,22 @@
 
 - The default behavior is `flex-direction: row` which arranges things horizontally. The reason this often works well without changing other details in the CSS is because block-level elements default to the full width of their parent. Changing things to vertical using flex-direction: column adds complexity because block-level elements default to the height of their content, and in this case (Flexbox-3 demo) there is no content (it's just divs we are using for demo).
 
+- [https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) - Great article that teaches how to develop a mental model of flexbox.
+
+- [Flexbox use cases](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox)
+
+- [CSS columns have no effect on a flex container.](https://chat.openai.com/c/3021274c-aaae-4663-8e6e-c64476e2762f)
+
+- [CSS Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A handy quick reference on Flexbox.
+
+- [Exercise-01-flex-center](https://github.com/vishpant76/css-exercises/tree/main/flex/01-flex-center) - Center the div. Completed and some self notes added in the file.
+
+- [Exercise-02-flex-header](https://github.com/vishpant76/css-exercises/blob/main/flex/02-flex-header/style.css) - A basic header. This required some more thought. I managed to do it but not with a clean approach. Lessons learnt:
+    + There was no need of using separate `.left-links ul` and `.right-links ul`. Since all `ul`'s are essentially having the same properties, we can just create one common `ul` that will be made into flex container with the relevant flex container properties applied to it.
+    + `ul` elements have some default margin/padding, so need to reset them to 0.
+    + Realizing that there was a need to have nested flexboxes in this exercise. The outer flexbox container was the .header, containing the two `ul`s and the logo `div` in the middle. While each of the two `ul`s were themselves flex containers for their `li` items.
+    + Understanding the use of `space-between`.
+    + Question: Why do we not use `gap` in the outer flexbox? Why are we using `justify-content: space-between;` in `ul` as even without using it, there is no difference on the page?
+
+
 - 
