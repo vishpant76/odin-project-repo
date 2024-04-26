@@ -133,5 +133,10 @@
     + Making .modal as flex container.
     + Few other thing with HTML but they have been noted in the file itself.
 
-- [Exercise 06-flex-layout](https://github.com/vishpant76/odin-project-repo/blob/main/02-CSS-Foundations-and-Flexbox/flexbox/flexbox-exercises-practice/06-flex-layout/style.css) - Need to repeat... Key Takeaways:
+- [Exercise 06-flex-layout](https://github.com/vishpant76/odin-project-repo/blob/main/02-CSS-Foundations-and-Flexbox/flexbox/flexbox-exercises-practice/06-flex-layout/style.css) - Key Takeaways:
     + `list-style-type: none;` - to remove the bullets. `height: 100vh;` in .body - makes the height 100% of the viewport. `text-decoration: none;` - removes underlines from links.
+    + Using .body as flex container with direction column. Other flex containers nested inside body: .header, .footer, and ul. Whether or not to switch direction to column, is something that becomes apparent when you look at the desired outcome layout.
+    + Using either `flex: 1;` in .content, or `justify-content: space-between;` in body - either approach will make the footer shift to the bottom.
+    + Using gap wherever necessary to keep some distance between the flex items.
+
+- 
