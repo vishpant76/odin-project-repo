@@ -139,4 +139,8 @@
     + Using either `flex: 1;` in .content, or `justify-content: space-between;` in body - either approach will make the footer shift to the bottom.
     + Using gap wherever necessary to keep some distance between the flex items.
 
+- [Exercise 07-flex-layout-2](https://github.com/vishpant76/odin-project-repo/tree/main/02-CSS-Foundations-and-Flexbox/flexbox/flexbox-exercises-practice/07-flex-layout-2) - Holy Grail layout - This was probably the hardest one. Managed to do it but my solution is a bit different from the official one. Refer both the HTML and CSS files for the changes. Not writing much here, would suggest to refer back to this later to redo it if you need more practice. And compare with the "solution" files to see the differences.
+
+- Flexbox exercises end here. This is the Odin lesson link on [Alignment](https://www.theodinproject.com/lessons/foundations-alignment) where you can find more additional resources on Flexbox.
+
 - 
