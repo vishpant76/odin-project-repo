@@ -143,4 +143,9 @@
 
 - Flexbox exercises end here. This is the Odin lesson link on [Alignment](https://www.theodinproject.com/lessons/foundations-alignment) where you can find more additional resources on Flexbox.
 
+### Landing Page Project
+
+- When to use height: 100vh in body? [Some discussion](https://chat.openai.com/c/72726ac3-58ce-48e6-bedb-ebd651bc9fbc)
+
+- [Some points](https://chat.openai.com/c/a27ba228-06b1-4430-af43-cfea136e7722) on dealing with wrapping the text onto next lines in the flex items. But need to do more research on this.
 - 
