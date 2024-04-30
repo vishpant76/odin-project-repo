@@ -21,4 +21,21 @@ let y = new Number(500);
 // x==y or x===y - both will return false.
 ```
 
-- 
+### Data Types
+
+- JS String Methods - [W3Schools Ref](https://www.w3schools.com/js/js_string_methods.asp)
+
+- [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) on Strings.
+
+- [About comparisons](https://javascript.info/comparison).
+
+- [Logical Operators](https://javascript.info/logical-operators) - A very important article on how logical operators behave in JS, and the truthy and falsy values. Take special note of the little tasks at the end.
+
+- [Conditionals - MDN aricle](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) - A good article with real life examples. Refer back if needed.
+
+- [Exercise - 2](https://replit.com/@vishvon/Exercise-2-data-types-and-conditionals#index.html) - The exercise was basic, but linking the script in the index.html here as found the JS driver code in it a good one.
+
+- [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) - Link to Odin article. Pay attention to the questions at the bottom.
+
+
+### Chrome Dev Tools
