@@ -44,6 +44,6 @@ let y = new Number(500);
 
 - [Functions Odin Article](https://www.theodinproject.com/lessons/foundations-function-basics) - This contains links to other useful resources. Come back later if needed.
 
-- [On Problem Solving](https://www.theodinproject.com/lessons/foundations-problem-solving)
 
-- 
+#### [On Problem Solving](https://www.theodinproject.com/lessons/foundations-problem-solving)
+
