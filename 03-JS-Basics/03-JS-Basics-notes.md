@@ -39,3 +39,11 @@ let y = new Number(500);
 
 
 ### Chrome Dev Tools
+
+- [Odin main article](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) - This has too much info to take in at the moment... Will return later.
+
+- [Functions Odin Article](https://www.theodinproject.com/lessons/foundations-function-basics) - This contains links to other useful resources. Come back later if needed.
+
+- [On Problem Solving](https://www.theodinproject.com/lessons/foundations-problem-solving)
+
+- 
