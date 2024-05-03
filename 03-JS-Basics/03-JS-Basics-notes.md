@@ -47,3 +47,13 @@ let y = new Number(500);
 
 #### [On Problem Solving](https://www.theodinproject.com/lessons/foundations-problem-solving)
 
+
+### Understanding Errors
+
+- [Main article]()
+- [Useful Video on Debugging](https://www.youtube.com/watch?v=H0XScE08hy8) and this [demo page](https://googlechrome.github.io/devtools-samples/debug-js/get-started) to play around.
+
+
+### Rock Paper Scissors
+
+- 
