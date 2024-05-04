@@ -56,4 +56,11 @@ let y = new Number(500);
 
 ### Rock Paper Scissors
 
-- 
+
+### Clean Code
+
+### Arrays and Loops
+
+- [Odin Article](https://www.theodinproject.com/lessons/foundations-arrays-and-loops)
+
+- [JS Arrays - W3S](https://www.w3schools.com/js/js_arrays.asp) - Nice article that summarizes key points about arrays.
