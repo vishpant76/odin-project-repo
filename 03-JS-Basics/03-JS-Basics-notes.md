@@ -64,3 +64,7 @@ let y = new Number(500);
 - [Odin Article](https://www.theodinproject.com/lessons/foundations-arrays-and-loops)
 
 - [JS Arrays - W3S](https://www.w3schools.com/js/js_arrays.asp) - Nice article that summarizes key points about arrays.
+
+- [JS Array Methods List](https://www.w3schools.com/js/js_array_methods.asp).
+
+- 
