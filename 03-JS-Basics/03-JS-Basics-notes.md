@@ -67,4 +67,6 @@ let y = new Number(500);
 
 - [JS Array Methods List](https://www.w3schools.com/js/js_array_methods.asp).
 
+- [MDN-Loops-2](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/Arrays-Loops/mdn-loops-2.js) - A good exercise in MDN on the use of slice(). Learnings: working of replace(), and why using it did not work. `refused` and `admitted` are `const` variables, but they could still be modified - Why? Because they are referencing DOM elements obtained through document.querySelector(), which are objects. The const keyword prevents you from reassigning `admitted` and `refused` to point to a different DOM element, but it does not prevent you from modifying properties of the DOM elements themselves. `const` simply means that the variable cannot be assigned to a different value. But it does not mean that the content of the variable, especially if it's an object or an array, cannot be modified.
+
 - 
