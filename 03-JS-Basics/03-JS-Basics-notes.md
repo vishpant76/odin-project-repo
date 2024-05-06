@@ -69,4 +69,10 @@ let y = new Number(500);
 
 - [MDN-Loops-2](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/Arrays-Loops/mdn-loops-2.js) - A good exercise in MDN on the use of slice(). Learnings: working of replace(), and why using it did not work. `refused` and `admitted` are `const` variables, but they could still be modified - Why? Because they are referencing DOM elements obtained through document.querySelector(), which are objects. The const keyword prevents you from reassigning `admitted` and `refused` to point to a different DOM element, but it does not prevent you from modifying properties of the DOM elements themselves. `const` simply means that the variable cannot be assigned to a different value. But it does not mean that the content of the variable, especially if it's an object or an array, cannot be modified.
 
+- [JS_info-while-exercise]() - A very useful usecase of do-while. Notice the difference between your approach and the solution. It's so concise and to the point. The check `while (num <= 100 && num)` handles both the scenarios where input might be `null` (when user presses 'cancel') or when the user enters nothing (simply presses enter without input).
+
+> The loop do..while repeats while both checks are truthy: The check for num <= 100 – that is, the entered value is still not greater than 100. The check && num is false when num is null or an empty string. Then the while loop stops too. If num is null then num <= 100 is true, so without the 2nd check the loop wouldn’t stop if the user clicks CANCEL. Both checks are required.
+
+- [repeatString.spec.js]() - The usage of regex in this file (the last test) is not very clear atm.
+
 - 
