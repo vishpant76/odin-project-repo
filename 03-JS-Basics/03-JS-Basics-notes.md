@@ -75,4 +75,10 @@ let y = new Number(500);
 
 - [repeatString.spec.js]() - The usage of regex in this file (the last test) is not very clear atm.
 
+- [Array Destructuring](https://www.freecodecamp.org/news/array-destructuring-in-es6-30e398f21d10/) - swapping is an interesting use case of this.
+
+- Read about forEach(), filter(), etc...
+
+- `Math.round(number_variable * 10) / 10` - Nice trick to round a number to one decimal place. Alternavtive to using parseFloat in conjunction with toFixed().
+
 - 
