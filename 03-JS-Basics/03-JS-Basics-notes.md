@@ -81,4 +81,13 @@ let y = new Number(500);
 
 - `Math.round(number_variable * 10) / 10` - Nice trick to round a number to one decimal place. Alternavtive to using parseFloat in conjunction with toFixed().
 
-- 
+
+### DOM Manipulation & Events
+
+- [Main article](https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events)
+
+- [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+- [textContent vs innerHTML](https://www.youtube.com/watch?v=ns1LX6mEvyM) - potential security risks when using innerHTML.
+
+- [The defer attribute](https://javascript.info/script-async-defer#defer)
