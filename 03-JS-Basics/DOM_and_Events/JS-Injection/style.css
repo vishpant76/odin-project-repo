@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+.html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #333;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.search-form-header {
+  color: #00ff6c;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 5em;
+}
+
+.search-input {
+  font-size: 1.5em;
+  max-width: 900px;
+  width: 60%;
+  flex-grow: 1;
+  padding: 0.5em;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 2px solid #00ff6c;
+  color: #b2f8d0;
+  outline: none;
+  background-color: rgb(178, 248, 208, 0.2);
+}
+
+.search-input:focus {
+  border: 3px solid #00ff6c;
+}
+
+.search-button {
+  font-size: 1.5em;
+  border: 2px solid #00ff6c;
+  color: #b2f8d0;
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(178, 248, 208, 0.2);
+}
+
+.search-button:hover {
+  background-color: rgb(178, 248, 208, 0.5);
+  color: white;
+}
+
+.search-query {
+  color: #b2f8d0;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.query {
+  color: #00ff6c;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* Background Styles Only */
+.side-links {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.side-link-youtube {
+  background-color: red;
+}
+
+.side-link-twitter {
+  background-color: #1da1f2;
+}
+
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
+}
