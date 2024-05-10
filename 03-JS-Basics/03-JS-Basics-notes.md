@@ -84,10 +84,15 @@ let y = new Number(500);
 
 ### DOM Manipulation & Events
 
-- [Main article](https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events)
+- [Main article](https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events) - TOP article on DOM.
 
 - [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 - [textContent vs innerHTML](https://www.youtube.com/watch?v=ns1LX6mEvyM) - potential security risks when using innerHTML.
 
 - [The defer attribute](https://javascript.info/script-async-defer#defer)
+
+> [!IMPORTANT]
+> [Useful ongoing discussion on DOM and events stuff](https://chatgpt.com/c/a4c26ef8-f923-4ddf-95ba-21b9095a2fc6) - NodeList, callback, eventListener, forEach, event Object and its properties and methods, 
+
+- 
