@@ -95,4 +95,6 @@ let y = new Number(500);
 > [!IMPORTANT]
 > [Useful ongoing discussion on DOM and events stuff](https://chatgpt.com/c/a4c26ef8-f923-4ddf-95ba-21b9095a2fc6) - NodeList, callback, eventListener, forEach, event Object and its properties and methods, 
 
+- [Full list of DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp).
+
 - 
