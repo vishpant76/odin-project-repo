@@ -97,4 +97,4 @@ let y = new Number(500);
 
 - [Full list of DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
-- 
+- [Dynamic Shopping list](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/MDN-Active-Learning/shopping-list/index.html) - A nice little active learning exercise on [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) to practice working with DOM. Still some confusion around event listener inside event listener but keep working on more examples ahead and it should be clear soon enough.
