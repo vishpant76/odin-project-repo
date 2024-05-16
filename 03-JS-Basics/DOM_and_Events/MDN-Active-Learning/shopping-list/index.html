@@ -55,6 +55,19 @@
       }
 
       buttonEl.addEventListener("click", clickBtn);
+
+      inputEl.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          clickBtn();
+        }
+      });
+
+      // element.addEventListener("keydown", (event) => {
+      //   if (event.keyCode === 13) {
+      //     // Code to execute when Enter key is pressed
+      //     console.log("Enter key pressed");
+      //   }
+      // });
     </script>
   </body>
 </html>
