@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Tutorial.Net</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Event Delegation</h1>
+    <ul id="menu">
+      <li><a id="home">home</a></li>
+      <li><a id="dashboard">Dashboard</a></li>
+      <li><a id="report">report</a></li>
+    </ul>
+
+    <script>
+      /*
+      let home = document.querySelector("#home");
+      home.addEventListener("click", (event) => {
+        console.log("Home menu item was clicked");
+      });
+
+      let dashboard = document.querySelector("#dashboard");
+      dashboard.addEventListener("click", (event) => {
+        console.log("Dashboard menu item was clicked");
+      });
+
+      let report = document.querySelector("#report");
+      report.addEventListener("click", (event) => {
+        console.log("Report menu item was clicked");
+      });
+      */
+      let menu = document.querySelector("#menu");
+      menu.addEventListener("click", (event) => {
+        let target = event.target;
+
+        switch (target.id) {
+          case "home":
+            console.log("Home menu item was clicked.");
+            break;
+
+          case "dashboard":
+            console.log("Dashboard menu item was clicked.");
+            break;
+          case "report":
+            console.log("Report menu item was clicked.");
+            break;
+        }
+      });
+    </script>
+  </body>
+</html>
