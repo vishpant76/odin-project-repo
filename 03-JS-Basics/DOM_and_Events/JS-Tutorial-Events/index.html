@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Tutorial.Net</title>
+  </head>
+  <body>
+    <h1>Javascript Events</h1>
+    <p>
+      This HTML is related to the tutorial on
+      <a
+        href="https://www.javascripttutorial.net/javascript-dom/javascript-events/"
+        >this page</a
+      >.
+    </p>
+    <button>Test Button</button>
+
+    <script>
+      let btn = document.querySelector("button");
+      // btn.addEventListener("click", (event) => console.log(event.type));
+
+      // Prevent Default demo
+      let link = document.querySelector("a");
+      link.addEventListener("click", (event) => {
+        console.log("clicked!");
+        event.preventDefault();
+      });
+
+      // Stop propagation
+      btn.addEventListener("click", (event) => {
+        console.log("The button was clicked!");
+        event.stopPropagation();
+      });
+      document.body.addEventListener("click", (event) =>
+        console.log("The body was clicked!")
+      );
+    </script>
+  </body>
+</html>
