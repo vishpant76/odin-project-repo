@@ -98,3 +98,27 @@ let y = new Number(500);
 - [Full list of DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
 - [Dynamic Shopping list](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/MDN-Active-Learning/shopping-list/index.html) - A nice little active learning exercise on [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) to practice working with DOM. Still some confusion around event listener inside event listener but keep working on more examples ahead and it should be clear soon enough. Related [CG discussion](https://chatgpt.com/c/8c6996d3-1caa-408b-8b77-709ad877aca9) for interesting insights.
+
+- [JS events](https://www.javascripttutorial.net/javascript-dom/javascript-events/) - A good article on JS tutorial.net. talks about event bubbling, capturing, preventDefault(), stopPropagation(), etc. See the [html file](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/JS-Tutorial-Events/index.html) for hands on demo.
+
+- Refer to [WesBos video](https://www.youtube.com/watch?v=F1anRyL37lE) covering bubbling, capturing, stopPropagation(), etc.
+
+- [Page Load Events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/) - See [html file](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/page-load-events/index.html) for quick demo.
+
+- [JS Mouse events](https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/) - goes over how the mouse events are registered.
+    + Refer [this discussion](https://chatgpt.com/c/b0008a16-b06b-4d7c-9870-1d5fb3455577) for more on how dblclick works.
+
+- [Getting screen coordinates](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/screen-coordinates/index.html) - this might be useful later on.
+
+- [JS Keyboard Events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
+
+- [JS Event Delegation](https://www.javascripttutorial.net/javascript-dom/javascript-event-delegation/) - seems quite important.
+
+> [!IMPORTANT]
+> [Event Listener/handler as a function as well as an object](https://chatgpt.com/c/0e5a93ab-e5f2-49cc-95dc-335f580581b1) - Functions having dual nature: function + object. Interesting insights.
+
+- [Understanding Event Delegation](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/event-delegation/index.html) - code e.g.
+
+- [The DispatchEvent() method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
+
+- [Adding custom events](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/custom-events/index.html) - A demo that is also a use case of callback functions.
