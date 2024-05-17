@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Tutorial dot net</title>
+  </head>
+  <body>
+    <h1>Page load events</h1>
+    <script>
+      addEventListener("DOMContentLoaded", (event) =>
+        console.log("The DOM is fully loaded.")
+      );
+
+      addEventListener("load", (event) =>
+        console.log("The page is fully loaded.")
+      );
+
+      addEventListener("beforeunload", (event) => {
+        // show the confirmation dialog
+        event.preventDefault();
+        // Google Chrome requires returnValue to be set.
+        event.returnValue = "";
+      });
+
+      addEventListener("unload", (event) => {});
+    </script>
+  </body>
+</html>
