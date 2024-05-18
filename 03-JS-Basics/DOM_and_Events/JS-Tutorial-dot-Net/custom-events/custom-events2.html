@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Tutorial.net</title>
+  </head>
+  <body>
+    <h1>JS Custom events</h1>
+    <div class="note">JS Custom event demo</div>
+
+    <script>
+      function highlight(elm) {
+        const bgColor = "yellow";
+        elm.style.backgroundColor = bgColor;
+
+        let event = new CustomEvent("highlight", {
+          detail: {
+            backgroundColor: bgColor,
+          },
+        });
+
+        elm.dispatchEvent(event);
+      }
+
+      let div = document.querySelector(".note");
+      function addBorder(elm) {
+        elm.style.border = "solid 4px green";
+      }
+
+      div.addEventListener("highlight", function (e) {
+        addBorder(this);
+        console.log(e.detail);
+      });
+
+      highlight(div);
+    </script>
+  </body>
+</html>
