@@ -121,4 +121,4 @@ let y = new Number(500);
 
 - [The DispatchEvent() method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
 
-- [Adding custom events](https://github.com/vishpant76/odin-project-repo/blob/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/custom-events/index.html) - A demo that is also a use case of callback functions.
+- [Adding custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/) - Looks important. Also covers working of callback. See demo files [here](https://github.com/vishpant76/odin-project-repo/tree/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/custom-events).
