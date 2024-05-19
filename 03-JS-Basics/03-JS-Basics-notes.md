@@ -125,4 +125,9 @@ let y = new Number(500);
 
 - [DOM tutorials](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) - A 4-part series by TraversyMedia. Refer it in future if needed. Skipping for now.
 
+
+### RPS game revisit
+
+- [EventDelegation vs querySelectorAll](https://www.freecodecamp.org/news/event-delegation-javascript/#:~:text=Event%20Delegation%20is%20a%20useful,event%20listeners%20with%20similar%20logic.&text=I'm%20using%20querySelectorAll%20here,t%20have%20the%20forEach%20method.) - a useful article.
+
 - 
