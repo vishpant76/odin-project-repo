@@ -94,7 +94,10 @@ let y = new Number(500);
 
 > [!IMPORTANT]
 > [Useful ongoing discussion on DOM and events stuff](https://chatgpt.com/c/a4c26ef8-f923-4ddf-95ba-21b9095a2fc6) - NodeList, callback, eventListener, forEach, event Object and its properties and methods.
-> [A look at callback vs regular functions](https://chatgpt.com/c/68525675-40a0-8002-999b-0684d6b61179) - This is a useful discussion on this important topic. Also explores the possible internal implementation of higher order functions that receive a callback function, and also a simplified simulation of the `addEventListener()`, i.e. how the callback functions work with DOM event listeners. 
+> [A look at callback vs regular functions](https://chatgpt.com/c/68525675-40a0-8002-999b-0684d6b61179) - This is a useful discussion on this important topic. Also explores the possible internal implementation of higher order functions that receive a callback function, and also a simplified simulation of the `addEventListener()`, i.e. how the callback functions work with DOM event listeners.
+
+> [!IMPORTANT]
+> [A closer look at event bubbling and capturing](https://chatgpt.com/c/6852cd2a-af8c-8002-ae33-0a575cb9c79b) - Very useful discussion on the DOM event flow, covering all three phases: capturing, target, bubbling. 
 
 - [Full list of DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp).
 

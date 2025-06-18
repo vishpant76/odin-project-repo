@@ -23,8 +23,9 @@
       // Prevent Default demo
       let link = document.querySelector("a");
       link.addEventListener("click", (event) => {
-        console.log("clicked!");
+        console.log("The link was clicked!");
         event.preventDefault();
+        // event.stopPropagation();
       });
 
       // Stop propagation
