@@ -93,7 +93,8 @@ let y = new Number(500);
 - [The defer attribute](https://javascript.info/script-async-defer#defer)
 
 > [!IMPORTANT]
-> [Useful ongoing discussion on DOM and events stuff](https://chatgpt.com/c/a4c26ef8-f923-4ddf-95ba-21b9095a2fc6) - NodeList, callback, eventListener, forEach, event Object and its properties and methods, 
+> [Useful ongoing discussion on DOM and events stuff](https://chatgpt.com/c/a4c26ef8-f923-4ddf-95ba-21b9095a2fc6) - NodeList, callback, eventListener, forEach, event Object and its properties and methods.
+> [A look at callback vs regular functions](https://chatgpt.com/c/68525675-40a0-8002-999b-0684d6b61179) - This is a useful discussion on this important topic.
 
 - [Full list of DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp).
 
