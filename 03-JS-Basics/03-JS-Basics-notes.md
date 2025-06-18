@@ -127,6 +127,8 @@ let y = new Number(500);
 
 - [Adding custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/) - Looks important. Also covers working of callback. See demo files [here](https://github.com/vishpant76/odin-project-repo/tree/main/03-JS-Basics/DOM_and_Events/JS-Tutorial-dot-Net/custom-events).
 
+- [Optional callback handling in JS](https://chatgpt.com/c/6852f940-0e6c-8002-a7e4-8c1179f9d113) - Ensuring that the second argument is being passed and is actually a callable function (i.e. callback function exists) before it gets called where its needed. Used here in the custom events demo.
+
 - [DOM tutorials](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) - A 4-part series by TraversyMedia. Refer it in future if needed. Skipping for now.
 
 
