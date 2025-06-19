@@ -62,8 +62,15 @@
 
 - [Inline vs Inline-block](https://chat.openai.com/share/200401c8-0a72-4466-ab95-696795a05c5a) in terms of the width, height, and padding.
 
+- [On margins and collapsing margins](https://css-tricks.com/almanac/properties/m/margin/)
+
 - [Another good explanation on margin: 0 auto](https://learnlayout.com/margin-auto) - to horizontally center an element within its container.
 
+- [Mastering margin collapsing](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing) - Something to look at later...
+
+- [CSS layout intro and layout flow](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Introduction)
+
+- [Inline vs Inline-block](https://chatgpt.com/c/6854114a-7800-8002-aa6c-0d634694e8d2)
 
 ### Introduction to Flexbox
 
