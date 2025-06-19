@@ -97,6 +97,10 @@
 - What is `flex: auto`?
 > flex: auto is one of the shorthands of flex. When auto is defined as a flex keyword it is equivalent to the values of flex-grow: 1, flex-shrink: 1 and flex-basis: auto or to flex: 1 1 auto using the flex shorthand. Note that flex: auto is not the default value when using the flex shorthand despite the name being “auto” which may be slightly confusing at first.
 
+> [!IMPORTANT]
+> [A closer look at `flex-basis`](https://chatgpt.com/c/6854323b-0308-8002-8469-49f6890fafd0) - An important discussion that should clear lots of confusion regarding how to use flex-basis.
+
+
 - In practice you will likely not be using complex values for flex-grow, flex-shrink or flex-basis. Generally, you’re most likely to use declarations like flex: 1; to make divs grow evenly and flex-shrink: 0 to keep certain divs from shrinking.
 
 - [Flexbox made Easy](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s) - A rather detailed video that explains many Flexbox concepts through a demo.

@@ -137,3 +137,5 @@ let y = new Number(500);
 - [EventDelegation vs querySelectorAll](https://www.freecodecamp.org/news/event-delegation-javascript/#:~:text=Event%20Delegation%20is%20a%20useful,event%20listeners%20with%20similar%20logic.&text=I'm%20using%20querySelectorAll%20here,t%20have%20the%20forEach%20method.) - a useful article.
 
 - [RPS game doubts and a look at event delegation](https://chatgpt.com/c/68538e09-a458-8002-b8e2-23f427be481c) - How the switch is being used inside the eventListener, why we don't need checkWinner() when a tie occurs.
+
+- [Etch-a-sketch demo](https://sarahma12.github.io/odin-etch-a-sketch/) - Don't look at the solution. Try to figure out how to do this on your own first.

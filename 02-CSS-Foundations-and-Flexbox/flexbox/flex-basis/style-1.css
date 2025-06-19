@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  border: 2px solid peachpuff;
+}
+.container {
+  display: flex;
+}
+.item {
+  /* flex: 1 1 auto; */
+  flex: 1 1 0;
+}

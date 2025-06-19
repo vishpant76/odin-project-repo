@@ -9,6 +9,7 @@
   height: 100px;
   width: 250px;
   flex: 1 1 auto;
+  /* flex: 1; */
 }
 
 .flex-container .two {
