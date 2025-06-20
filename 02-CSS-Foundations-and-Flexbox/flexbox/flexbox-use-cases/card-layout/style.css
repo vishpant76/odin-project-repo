@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.card {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .content {
+  padding: 10px;
+  flex: 1 1 auto;
+}
+
+.card footer {
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 10px;
+}

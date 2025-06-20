@@ -119,6 +119,14 @@
 
 - [CSS Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A handy quick reference on Flexbox.
 
+- [Using auto margins for main axis alignment](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container#using_auto_margins_for_main_axis_alignment)
+
+
+- [Card layout pushing footer down](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox#card_layout_pushing_footer_down) - An interesting use case of using flex in vertical direction, how it's used in conjunction with grid, and its impact on using `flex: 1 1 0` vs `flex: 1 1 auto`. For more insights search [this discussion](https://chatgpt.com/c/6854323b-0308-8002-8469-49f6890fafd0).
+
+
+- [Flexbox - media objects use case](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox#media_objects) - Also refer to this [important discussion](https://chatgpt.com/c/68554e23-a20c-8002-ab14-e85064ae392e) on why `flex-start: 1` was used, and why we need to set `display: block` for the image element. This goes into an important concept of *Inline elements being aligned based on the text baseline*, which results in an extra bottom whitespace in certain scenarios such as the one discussed here, and how the `block` display solves it.
+
 - [Exercise-01-flex-center](https://github.com/vishpant76/css-exercises/tree/main/flex/01-flex-center) - Center the div. Completed and some self notes added in the file.
 
 - [Exercise-02-flex-header](https://github.com/vishpant76/css-exercises/blob/main/flex/02-flex-header/style.css) - A basic header. This required some more thought. I managed to do it but not with a clean approach. Lessons learnt:

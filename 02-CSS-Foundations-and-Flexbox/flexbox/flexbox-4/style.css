@@ -15,5 +15,6 @@
   height: 60px;
   border: 4px solid darkslategray;
   background: skyblue;
+  /* flex: 1 1 auto; */
   /* flex: 1; */
 }
